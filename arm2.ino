@@ -4,7 +4,7 @@
 
 // Replace with your Wi-Fi credentials
 const char* ssid = "HUAWEI nova 5T";
-const char* password = "12345678";
+const char* password = "77889900";
 
 WebServer server(80);
 
@@ -75,7 +75,7 @@ void setup() {
   servo1.setPeriodHertz(50);
   servo2.setPeriodHertz(50);
   servo1.attach(13, 500, 2400);  // Servo 1 on GPIO 13
-  servo2.attach(14, 500, 2400);  // Servo 2 on GPIO 14
+  servo2.attach(12, 500, 2400);  // Servo 2 on GPIO 14
 
   // Connect to Wi-Fi
   WiFi.begin(ssid, password);
